@@ -1,0 +1,162 @@
+html, body {
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+	background-color:#000000
+}
+#burgerButton {
+	margin-top:5px;
+	float:left;
+}
+
+#masterheadline{
+	margin-left:  0px;
+	clear:left;
+}
+.content{
+	height:80%;
+	width:100%;
+	margin-left:0px;
+	background-color: #262626;
+	color: #A9A9A9;
+	overflow: auto;
+}
+/*.content h2 {*/
+	/*color: #A9A9A9;*/
+/*}*/
+/*.content p {*/
+	/*color: #A9A9A9;*/
+/*}*/
+/*content li {*/
+	/*color: #A9A9A9;*/
+/*}*/
+
+.header{
+	height:15%;
+	min-height: 100px;
+	width:100%;
+	margin-left:0px;
+	background-color: #A9A9A9;
+}
+.header h1, a {
+	color: #262626;
+}
+
+
+.sidenav {
+	background-color: #262626;
+}
+.sidenav a,p {
+	color: #A9A9A9;
+}
+.endpointScreen-visible {
+	display: block
+	color: #A9A9A9;
+	width: 100%;
+	background-color: #262626;
+}
+.endpointScreen-visible h2 {
+	text-decoration: underline;
+}
+.endpointScreen-hidden {
+	display: none;
+	color: #A9A9A9;
+	width: 100%;
+	background-color: #262626;
+}
+.endpointScreen-hidden h2{
+	text-decoration: underline;
+}
+
+.endpointGrid-hidden {
+  display: none;
+}
+
+.endpointGrid-visible {
+  display: grid;
+  grid-gap: 50px;
+  grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
+}
+
+.endpointGridItem {
+  #background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.endpointGridHeadline-hidden{
+	display:none
+}
+
+.endpointGridHeadline-visible{
+	display:block
+}
+
+
+.onSwitch:active{
+	font-weight: bold;
+}
+.onSwitch:link{
+	/*color: #4CAF50;*/
+	color: black;
+}
+.onSwitch:visited{
+	/*color: #4CAF50;*/
+	color: black;
+}
+.onSwitch:hover{
+	color: dodgerblue;
+}
+
+.offSwitch:active{
+	font-weight: bold;
+}
+.offSwitch:link{
+	color: black;
+}
+.offSwitch:visited{
+	color: black;
+}
+.offSwitch:hover{
+	color: dodgerblue;
+}
+.endpointStateBox {
+	border: 1px solid black;
+	width: auto;
+  word-break: normal;
+}
+
+.footer{
+	position:absolute;
+	top:95%;
+	width:100%;
+	height:5%;
+	min-height: 26px;
+	margin-left:0px;
+	color: #A9A9A9;
+	background-color: black;
+}
+div.version {
+	position:  absolute;
+	bottom:5px;
+	left:0px;
+	height:20px;
+	width:100%;
+	font-size: 15px;
+	text-align: center;
+}
+
+#maintest {
+	position:absolute;
+	bottom:0px;
+	height:100px;
+	width:150px;
+	border: 1px solid white;
+}
+#othertest {
+	 position:absolute;
+	 bottom:0px;
+	 border: 1px solid green;
+ }
